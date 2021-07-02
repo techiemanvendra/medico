@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>medico home page</title>
+</head>
+<style>
+    body {
+        background-image: url(abc.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul a {
+        block-size: 70px;
+        background-color: black;
+        color: blanchedalmond;
+
+    }
+
+        .nav 
+         {
+           background-color: aqua;
+           height: 3em;
+        }
+
+
+        .nav li {
+            display: inline;
+            font-size: 25px;
+        }
+
+        .search {
+            padding: 15px;
+            text-align: center;
+            font-size: 25px;
+
+        }
+
+        .search input {
+            font-size: 25px;
+        }
+
+        #button-holder {
+            text-align: center;
+            position: relative;
+            bottom: 3em;
+            left: 57em;
+            width: 10px;
+        }
+
+        #button-holder img {
+            margin: 4px;
+            width: 20px;
+
+        }
+        .prd1 img{
+            height: 12em;
+            width:13em ;
+            margin: 10px;
+            border-style:inset;
+            border-color: black;
+            border-radius: 8px;
+        }
+        .prd2 img{
+            height: 12em;
+            width:15em ;
+            margin: 10px;
+        border-style: inset;
+        border-color: black;
+        border-radius: 8px;
+        }
+        .prd3 img{
+            height: 12em;
+            width:15em ;
+            margin: 10px;
+            border-style:inset;
+            border-color: black;
+            border-radius: 8px;
+        }
+        .prd1 h1
+        {
+            font-family: cursive,monospace;
+
+        }
+        .prd1{
+            display:inline;
+            float: left;
+            position: relative;
+            left: 9em;
+            
+        }
+        .prd2 {
+            display:inline;
+            float: center;
+            position: relative;
+            left: 15em;
+            
+           
+        }
+        
+        
+        .prd3 {
+            display:inline;
+            float: right;
+            position: relative;
+            right: 20em;
+            bottom: 282px;
+            
+        }
+        .prd2 h1
+        {
+            font-family: cursive,monospace;
+
+        }
+        .prd3 h1
+        {
+            font-family: cursive,monospace;
+
+        }
+       
+</style>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="default.asp">Home</a></li>
+            <li><a href="news.asp">News</a></li>
+            <li><a href="contact.asp">Contact</a></li>
+            <li><a href="about.asp">About</a></li>
+        </ul>
+    </div>
+    <div class="search">
+        <form>
+            <label><b>Search:-</b></label>
+            <input type="text" placeholder="search medicine" required>
+        </form>
+
+
+    </div>
+    <div id='button-holder'>
+        <img src='tu.png' />
+    </div>
+    <div class="prd1">
+        <img src="pro1.jpg" alt="Healthcare">
+        <h1>Healthcare product</h1>
+        
+      
+        <p><button type="submit"  onclick="window.location.href = 'healthproduct.html';">open</button></p>
+    </div>
+   <div class="prd2">
+    <img src="pro2.jpg" alt="medicine">
+    <h1>Order medicines</h1>
+    <p><button>open</button></p>
+   </div>
+   <div class="prd3">
+    <img src="lab.jpg" alt="lab">
+    <h1>Lab test</h1>
+    <p><button type="submit" onclick="window.location.href = 'healthproduct.html';">open</button></p>
+   </div>
+</body>
+
+</html>
