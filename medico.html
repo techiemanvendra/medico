@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bestmedico</title>
+</head>
+<style>
+    body{
+        background-image: url(abc.jpg);  
+        background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+          }
+    *
+    {
+        margin: 0;
+        padding: 0;
+    }
+    ul a{
+        block-size: 70px;
+        background-color: black;
+        color: blanchedalmond;
+       
+    }
+    
+    .nav{
+        background-color: aqua;
+        height: 3em;
+        
+    }
+    .nav li{
+            display:inline;
+            font-size: 2em;
+        }
+    .form input {
+    font-size: 25px
+}
+label {
+  font-size: 35px;
+  color: black;
+}
+    .form
+    {
+       
+    
+        text-align: center;
+        position: relative;
+        top: 40vh;
+        
+    }
+    .form a{
+        text-decoration: none;
+        color: black;
+    }
+</style>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+                <!-- <div class="dropdown-content">
+                    <ul>
+                        <li>  <a href="#">Link 1</a></li>
+                  <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    
+                </ul>
+                  </div></li> -->
+            <li><a href="news.asp">News</a></li>
+            <li><a href="contact.asp">Contact</a></li>
+            <li><a href="about.asp">About</a></li>
+          </ul>
+          
+    </div>
+    <div class="form">
+        <form >
+            <label><b>Username:- </b></label>
+            <input type="text" placeholder="Enter Username"  required>
+             <br> 
+             <label><b>Password:- </b></label>
+            <input type="password" placeholder="Enter Password"  required>
+              <br>
+              <br>
+            <button type="submit" onclick="window.location.href = 'firstpage.html';">Login</button>
+            <input type="checkbox" checked="checked"> Remember me
+            <br>
+            <label><a href="createnewacc.html"><b> create new account</b></a></label>
+        
+        </form>
+    </div>
+    
+</body>
+</html>
